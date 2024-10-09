@@ -1,6 +1,8 @@
 @extends('layout.app')
 
 
-@section('container')
+@section('content')
     test app
+
+    <a href="{{ route('test.jer.bang') }}">go to testing page</a>
 @endsection
